@@ -12,7 +12,7 @@
   - **300行代码裸解**HTTP请求，**唯一无任何依赖**的库，巧妙使用**达夫设备**合并处理普通和chunked返回
 - 💉【[yapi](https://github.com/ez8-co/yapi)】**全能进程注入器**
   - windows下消除x86/x64/wow64区别，**像编写本地程序一样**注入目标进程，并且不再需要dll支持
-- 🔓【[unlocker](https://github.com/ez8-co/unlocker)】Ring3层（用户态，非驱动态）文件解锁库
+- 🔓【[unlocker](https://github.com/ez8-co/unlocker)】Ring3层（用户态，非驱动）文件解锁库
   - 可能是**全世界唯一**非暴力解畸形目录删除的方案（网上搜不到该方案），**唯一内存映射文件解锁方法**（handle和mapfile的关联关系有断层），支持跨x86/x64/wow64操作，支持快速跳过管道等可能导致卡死的特殊句柄
 - 🔍【[ezpp](https://github.com/ez8-co/ezpp)】超好用的C++支持**在线剖析的代码级打点**性能剖析器
   - 唯一支持**递归和多线程**（对比Google gprofiler和Intel VTune），公司内部广泛应用，协助建立性能**优化功勋诸多次**
