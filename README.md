@@ -21,5 +21,5 @@
 - 🆙【[AutoUpdate](https://github.com/MFCer/AutoUpdate)】基于MFC实现的自动更新模块
   - **极简设计**（仅气泡交互），**多国语言**，**自更新**，**多种更新策略**，**多节点部署**，**全屏检测**，提供SDK**即插即用**
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=orca-zhang&hide=html)
-![Stats](https://github-readme-stats.vercel.app/api?username=orca-zhang&show_icons=true&count_private=true&line_height=40)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=orca-zhang&hide=html&layout=compact)
+![Stats](https://github-readme-stats.vercel.app/api?username=orca-zhang&show_icons=true&count_private=true&line_height=20)
