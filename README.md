@@ -1,5 +1,12 @@
 ### 我的作品
 
+- 🐋【[orcastor](https://github.com/orcastor)】开箱即用📦的高性能跨平台对象存储🗄️（开发中）
+  - 支持廉价低功耗🔋设备（RaspPi/Linux base on ARM64）
+  - 存储介质/访问协议可配置
+  - 支持单机和分布式两种规格
+
+---
+
 - 🏎️【[borm](https://github.com/orca-zhang/borm)】更好用的orm库
   - 和写sql类似，几乎**无学习成本**，C++版一行搞定从db到pb/struct的数据load/store工作（暂未开源），golang版本使用reflect2，解决了**类型转换痛点**，性能**接近/略超原生**，应用于两家上市公司**生产环境无bug稳定运行多年**
 - 🦄【LRUCache（[go](https://github.com/orca-zhang/lrucache) / [C++](https://github.com/ez8-co/linked_hash) / [js](https://github.com/orca-zhang/cache.js)）】
