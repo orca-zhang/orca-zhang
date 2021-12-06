@@ -1,8 +1,8 @@
 ### 我的作品
 
-- **（开发中）** 🐋【[orcastor](https://github.com/orcastor)】开箱即用📦的高性能跨平台对象存储🗄️
-  - 支持廉价低功耗🔋设备（Raspberry Pi / Linux base on ARM64）
-  - 存储介质/访问协议可配置
+- 🐋【[orcastor](https://github.com/orcastor)】开箱即用📦的轻量级对象存储🗄️ **（开发中）**
+  - 跨平台：支持Windows & Linux主流发行版 & MacOS & 廉价低功耗🔋设备（Raspberry Pi / ARM64）
+  - 存储引擎/访问协议可替换
   - 支持单机和分布式两种规格
 - 🏎️【[borm](https://github.com/orca-zhang/borm)】更好用的orm库
   - 和写sql类似，几乎**无学习成本**，C++版一行搞定从db到pb/struct的数据load/store工作（暂未开源），golang版本使用reflect2，解决了**类型转换痛点**，性能**接近/略超原生**，应用于两家上市公司**生产环境无bug稳定运行多年**
@@ -25,5 +25,4 @@
 - 🆙【[AutoUpdate](https://github.com/MFCer/AutoUpdate)】基于MFC实现的自动更新模块
   - **极简设计**（仅气泡交互），**多国语言**，**自更新**，**多种更新策略**，**多节点部署**，**全屏检测**，提供SDK**即插即用**
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=orca-zhang&hide=html&layout=compact)
-![Stats](https://github-readme-stats.vercel.app/api?username=orca-zhang&show_icons=true&count_private=true&line_height=20)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=orca-zhang&hide=html&layout=compact)![Stats](https://github-readme-stats.vercel.app/api?username=orca-zhang&count_private=true&line_height=20)
