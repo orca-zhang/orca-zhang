@@ -2,7 +2,8 @@
 
 - 🐋【[orcastor](https://github.com/orcastor)】开箱即用📦的轻量级对象存储🗄️ **（开发中）**
   - 跨平台：支持Windows & Linux主流发行版 & MacOS & 廉价低功耗🔋设备（Raspberry Pi / ARM64）
-  - 存储引擎/访问协议可替换
+  - 存储引擎可替换：默认sqlcipher + RocksDB
+  - 支持多种访问协议：http1.1/http2.0/http3.0/nfs/smb
   - 支持单机和分布式两种规格
 - 🏎️【[borm](https://github.com/orca-zhang/borm)】更好用的orm库
   - 和写sql类似，几乎**无学习成本**，C++版一行搞定从db到pb/struct的数据load/store工作（暂未开源），golang版本使用reflect2，解决了**类型转换痛点**，性能**接近/略超原生**，应用于两家上市公司**生产环境无bug稳定运行多年**
