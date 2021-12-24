@@ -10,7 +10,6 @@
   - 🚀 高性能、极简设计、并发安全
   - 🏳️‍🌈 支持`LRU` 和 `LRU-2`两种模式   
   - 🦖 额外小组件支持分布式一致性
-  - Extremely easy, fast, concurrency-safe and support distributed consistency. 
 - 🏎️【[borm](https://github.com/orca-zhang/borm)】更好用的orm库
   - 和写sql类似，几乎**无学习成本**，C++版一行搞定从db到pb/struct的数据load/store工作（暂未开源），golang版本使用reflect2，解决了**类型转换痛点**，性能**接近/略超原生**，应用于两家上市公司**生产环境无bug稳定运行多年**
 - 🗂️【LRUCache（[go](https://github.com/orca-zhang/lrucache) / [C++](https://github.com/ez8-co/linked_hash) / [js](https://github.com/orca-zhang/cache.js)）】
