@@ -5,7 +5,7 @@
   - 存储引擎可替换：默认sqlcipher + RocksDB
   - 支持多种访问协议：http1.1/http2.0/http3.0/nfs/smb
   - 支持单机和分布式两种规格
-- 🦄【[orcache](https://github.com/orca-zhang/orcache) 】轻量本地内存缓存
+- 🦄【[ecache](https://github.com/orca-zhang/ecache) 】轻量本地内存缓存
   - 🤏 代码量<300行、30s完成接入   
   - 🚀 高性能、极简设计、并发安全
   - 🏳️‍🌈 支持`LRU` 和 `LRU-2`两种模式   
