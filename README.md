@@ -2,7 +2,7 @@
 
 - 🐋【[orcastor](https://github.com/orcastor)】开箱即用📦的轻量级对象存储🗄️ **（开发中）**
   - 跨平台：支持Windows & Linux主流发行版 & MacOS & 廉价低功耗🔋设备（Raspberry Pi / ARM64）
-  - 存储引擎可替换：默认sqlcipher + RocksDB
+  - 存储引擎可替换：默认sqlcipher + ~~RocksDB~~自研块存储
   - 支持多种访问协议：http1.1/http2.0/http3.0/nfs/smb
   - 支持单机和分布式两种规格
 - 🦄【[ecache](https://github.com/orca-zhang/ecache) 】轻量本地内存缓存
