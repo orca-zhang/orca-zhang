@@ -12,7 +12,7 @@
   - 🦖 额外小组件支持分布式一致性
 - 🏎️【[borm](https://github.com/orca-zhang/borm)】更好用的orm库
   - 和写sql类似，几乎**无学习成本**，C++版一行搞定从db到pb/struct的数据load/store工作（暂未开源），golang版本使用reflect2，解决了**类型转换痛点**，性能**接近/略超原生**，应用于两家上市公司**生产环境无bug稳定运行多年**
-- 🗂️【LRUCache（[go](https://github.com/orca-zhang/lrucache) / [C++](https://github.com/ez8-co/linked_hash) / [js](https://github.com/orca-zhang/cache.js)）】
+- 🗂️【LRUCache（[go](https://github.com/orca-zhang/lrucache) / [c++](https://github.com/ez8-co/linked_hash) / [js](https://github.com/orca-zhang/cache.js)）】
   - 实现了三种语言的版本，leetcode都是 **超越100%** 的解法，C++版的key重载**巧妙地直接消除拷贝**，性能**强劲无敌**
 - 🐞【[emock](https://github.com/ez8-co/emock)】**下一代mock库**
   - 对标Google的googlemock，跨平台支持mock所有函数（**全部6大类函数**），一个宏搞定一切，**唯一windows pdb文件重载**符号匹配算法，**类反射，API Hook**原理实现，市面上**唯一跳板安全**
