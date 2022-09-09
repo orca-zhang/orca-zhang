@@ -4,6 +4,10 @@
   - 跨平台：支持Win、Linux、MacOSX等主流操作系统以及廉价低功耗🔋设备（Raspberry Pi / ARM64）
   - 存储引擎可替换：默认sqlcipher + 自研存储
   - 支持多种访问协议：http1.1/http2.0/http3.0/nfs/smb
+- ❄️【[idgen](https://github.com/orca-zhang/idgen) 】一款雪花算法发号器
+  - 🚀 支持基于redis或本地内存（失败降级）
+  - ⌚ ntp同步和时钟回跳安全（默认1分钟）
+  - 🦖 js精度安全（不超过53位安全范围）
 - 🦄【[ecache](https://github.com/orca-zhang/ecache) 】轻量本地内存缓存
   - 🤏 代码量<300行、30s完成接入   
   - 🚀 高性能、极简设计、并发安全
