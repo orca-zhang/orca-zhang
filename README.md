@@ -10,7 +10,8 @@
 > 这是去年学做的惠灵顿牛排🥩（Beef Wellington），小愿望是能开一家无锡小吃店，卖泡泡小馄饨、小笼馒头、玉兰饼、酸辣汤、苏式面。
 
 - 🐋【[orcas](https://github.com/orcastor)】更聪明、更现代的轻量级NAS解决方案🗄️ **（开发中）**
-  - 跨平台：支持Win、Linux、MacOSX等主流操作系统以及廉价低功耗🔋设备（RPi / ARM64）
+  - 低成本：3D打印外壳，自制背板成本低至30.9%，支持15mm超厚硬盘，超高性能准系统仅￥690.8，3～18TB垂直存储仅￥1231.8～￥3121.8
+  - 跨平台：支持Win、Linux、MacOSX等主流操作系统以及廉价低功耗🔋（6块盘仅30W）设备（RPi / ARM64）
   - 存储引擎可替换：默认sqlcipher + 自研存储
   - 支持多种访问协议：http1.1/http2.0/http3.0/nfs/smb
 - ❄️【[idgen](https://github.com/orca-zhang/idgen) 】一款雪花算法发号器
