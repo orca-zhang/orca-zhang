@@ -29,16 +29,16 @@
 - 🗂️\[LRUCache（[go](https://github.com/orca-zhang/lrucache) / [c++](https://github.com/ez8-co/linked_hash) / [js](https://github.com/orca-zhang/cache.js)\]
   - Implementations in three languages, all **exceeding 100%** in leetcode. The C++ version **cleverly eliminates copying** by overloading the key, with **powerful** performance.
 - 🐞\[[emock](https://github.com/ez8-co/emock)\] **Next-generation mock library**
-  - Comparable to Google's googlemock, cross-platform support for mocking all functions (all **6 kinds of functions**), with one macro handling everything. **Unique solution of windows pdb file overload** symbol matching algorithm, **reflection-like, API Hook** principle implementation, and the only one **trampoline-safe** on the Internet.
+  - Comparable to Google's googlemock, cross-platform support for mocking all functions (all **6 kinds of functions**), with one macro handling everything. **Unique solution of windows pdb file overload** symbol matching algorithm, **reflection-like, API Hook** principle implementation, and the only one **trampoline safe** on the Internet.
 - 🚀\[[xpjson](https://github.com/ez8-co/xpjson)\] Mini cross-platform json library
-  - Born in '13, implemented with **C++11 & template metaprogramming (TMP, type extraction)** techniques, **only 1500 lines**, **no external dependencies**, supporting **SSO (Small String Optimization)/COW (Copy On Write)**
+  - Born in 2013, implemented with **C++11 & template metaprogramming (TMP, type extraction)** techniques, **only 1500 lines**, **no external dependencies**, supporting **SSO (Small String Optimization)/COW (Copy On Write)**
 - 💜\[[influxdb](https://github.com/orca-zhang/influxdb-cpp)\] The **most popular** C and C++ client on GitHub
   - **300 lines of code to bare decode** HTTP requests, the **only** library with **no dependencies**, cleverly using **Duff's device** to merge processing ordinary and chunked returns
-- 💉\[[yapi](https://github.com/ez8-co/yapi)\] **Universal process injector**
-  - Reduce the difference between **x86/x64/wow64** under Windows, injects the target process just **like writing a local program**, and no longer requires dll support
+- 💉\[[yapi](https://github.com/ez8-co/yapi)\] **yet another process injector**
+  - Eliminate the difference between **x86/x64/wow64** under Windows, injects the target process just **like writing a local program**, and no longer requires dll support
 - 🔓\[[unlocker](https://github.com/ez8-co/unlocker)\] Ring3 layer (user mode, non-driver) file unlocking library
   - Possibly the **unique non-violent** solution in the world to unlock malformed directory deletion (this solution cannot be found on the Internet), the **unique memory-mapped file unlocking method** (the association between handle and mapfile has a fault line), supports cross-x86/x64/wow64 operations, supports skipping pipelines and other special handles that may cause deadlock
-- 🔍\[[ezpp](https://github.com/ez8-co/ezpp)\] A very easy-to-use C++ **code-level profiler** with **online profiling**
+- 🔍\[[ezpp](https://github.com/ez8-co/ezpp)\] A very easy-to-use C++ **code-level performance profiler** with **online profiling**
   - The only one to support **recursion and multithreading** (compared to Google gprofiler and Intel VTune), widely used internally by the company, and has **contributed to performance optimization many times**
 - 🔲\[[jsqrcode](https://github.com/ez8-co/jsqrcode)\] Pure JS version QR code parsing library (zxing port)
   - **Multiple bugs fixed**, added support for **Japanese code table/Chinese character decoding** (loaded on demand), **greatly improved** decoding success rate

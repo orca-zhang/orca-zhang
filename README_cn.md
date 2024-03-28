@@ -34,7 +34,7 @@
   - 出生于13年，**C++11&模板元编程（TMP，类型萃取）技术实现，仅1500行，无外部依赖**，支持**SSO（小字符串优化）/COW（写时拷贝）**
 - 💜【[influxdb](https://github.com/orca-zhang/influxdb-cpp)】github上**最受欢迎**的C和C++版客户端
   - **300行代码裸解**HTTP请求，**唯一无任何依赖**的库，巧妙使用**达夫设备**合并处理普通和chunked返回
-- 💉【[yapi](https://github.com/ez8-co/yapi)】**全能进程注入器** **Universal process injector**
+- 💉【[yapi](https://github.com/ez8-co/yapi)】**全能进程注入器**
   - windows下消除**x86/x64/wow64**区别，**像编写本地程序一样**注入目标进程，并且不再需要dll支持
 - 🔓【[unlocker](https://github.com/ez8-co/unlocker)】Ring3层（用户态，非驱动）文件解锁库
   - 可能是**全世界唯一**非暴力解畸形目录删除的方案（网上搜不到该方案），**唯一内存映射文件解锁方法**（handle和mapfile的关联关系有断层），支持跨x86/x64/wow64操作，支持快速跳过管道等可能导致卡死的特殊句柄
