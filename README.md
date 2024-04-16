@@ -8,7 +8,7 @@
   </a>
 </p>
 
-> This is a Beef Wellington I learned to make in 2022. My small dream is to open a Wuxi snack shop, selling bubble wontons, small steamed buns, yulan cakes, hot and sour soup, and Suzhou-style noodles.
+> This is a Beef Wellington I learned to make in 2022. My small dream is to open a Wuxi snack shop, selling bubble wontons, small steamed buns, magnolia cakes, hot and sour soup, and Suzhou-style noodles.
 
 - 🐋\[[orcas](https://github.com/orcastor)\] 🗄️Lightweight NAS solution that is smarter and more modern. **(WIP)**
   - 💸 Low cost: 3D print hot-swappable backplane reduce costs to 25%, ultra-high-performance system only costs ¥745.6 (without disk), 3\~18TB PMR storage only costs ¥1225.6\~3115.6
@@ -41,7 +41,7 @@
 - 🔍\[[ezpp](https://github.com/ez8-co/ezpp)\] A very easy-to-use C++ **code-level performance profiler** with **online profiling**
   - The only one to support **recursion and multithreading** (compared to Google gprofiler and Intel VTune), widely used internally by the company, and has **contributed to performance optimization many times**
 - 🔲\[[jsqrcode](https://github.com/ez8-co/jsqrcode)\] Pure JS version QR code parsing library (zxing port)
-  - **Multiple bugs fixed**, added support for **Japanese code table/Chinese character decoding** (loaded on demand), **greatly improved** decoding success rate
+  - **Several bugs fixed**, added support for **Japanese code table/Chinese character decoding** (loaded on demand), **greatly improved** decoding success rate
 - 🆙\[[AutoUpdate](https://github.com/MFCer/AutoUpdate)\] Automatic update module implemented based on MFC
   - **Minimalist design** (only bubble interaction), **multilingual support**, **self-update**, **multiple update strategies**, **multi-node deployment**, **full-screen detection**, and provided SDK **plug-and-play**
 
