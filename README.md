@@ -25,7 +25,7 @@
   - 🌈 Supports `LRU` and `LRU-2` modes
   - 🦖 Additional components support distributed consistency
 - 🏎️\[[borm](https://github.com/orca-zhang/borm)\] A better ORM library
-  - Similar to writing SQL, almost **no learning cost**. The C++ version (not yet open-sourced) can handle data load/store from db to pb/struct in one line . The Go version uses reflect2 to solve **type conversion pain points**, with performance **close to or slightly better than native**, and has been used in production environments of two listed companies **without bugs** for many years.
+  - Similar to writing SQL, almost **no learning overhead**. The C++ version (not yet open-sourced) can handle data load/store from db to pb/struct in one line . The Go version uses reflect2 to solve **type conversion pain points**, with performance **close to or slightly better than native**, and has been used in production environments of two listed companies **without bugs** for many years.
 - 🗂️\[LRUCache（[go](https://github.com/orca-zhang/lrucache) / [c++](https://github.com/ez8-co/linked_hash) / [js](https://github.com/orca-zhang/cache.js)\]
   - Implementations in three languages, all **beats 100%** in leetcode. The C++ version **cleverly avoid copying** by overloading the `key`, with **powerful** performance.
 - 🐞\[[emock](https://github.com/ez8-co/emock)\] **Next-generation mock library**
