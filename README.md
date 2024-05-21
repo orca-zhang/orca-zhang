@@ -26,12 +26,12 @@
   - 🦖 Additional components support distributed consistency
 - 🏎️\[[borm](https://github.com/orca-zhang/borm)\] A better ORM library
   - Similar to writing SQL, almost **no learning overhead**. The C++ version (not yet open-sourced) can handle data load/store from db to pb/struct in one line . The Go version uses reflect2 to solve **type conversion pain points**, with performance **close to or slightly better than native**, and has been used in production environments of two listed companies **without bugs** for many years.
-- 🗂️\[LRUCache（[go](https://github.com/orca-zhang/lrucache) / [c++](https://github.com/ez8-co/linked_hash) / [js](https://github.com/orca-zhang/cache.js)\]
+- 🗂️\[LRUCache（[go](https://github.com/orca-zhang/lrucache) / [c++](https://github.com/ez8-co/linked_hash) / [js](https://github.com/orca-zhang/cache.js))\]
   - Implementations in three languages, all **beats 100%** in leetcode. The C++ version **cleverly avoid copying** by overloading the `key`, with **powerful** performance.
 - 🐞\[[emock](https://github.com/ez8-co/emock)\] **Next-generation mock library**
   - Comparable to Google's googlemock, cross-platform support for mocking all functions (all **6 kinds of functions**), with one macro handling everything. **Unique solution of windows pdb file overload** symbol matching algorithm, **reflection-like, API Hook** principle implementation, and the only one **trampoline safe** on the Internet.
 - 🚀\[[xpjson](https://github.com/ez8-co/xpjson)\] Mini cross-platform json library
-  - Born in 2013, implemented with **C++11 & template metaprogramming (TMP, type extraction)** techniques, **only 1500 lines**, **no external dependencies**, supporting **SSO (Small String Optimization)/COW (Copy On Write)**
+  - Born in 2013, implemented with **C++11 & template metaprogramming (TMP, type extraction)** techniques, **only 1500 lines**, **no external dependencies**, support **SSO (Small String Optimization)/COW (Copy On Write)**
 - 💜\[[influxdb](https://github.com/orca-zhang/influxdb-cpp)\] The **most popular** C and C++ client on GitHub
   - **300 lines of code to bare decode** HTTP requests, the **only** library with **no dependencies**, cleverly using **Duff's device** to merge processing ordinary and chunked returns
 - 💉\[[yapi](https://github.com/ez8-co/yapi)\] **yet another process injector**
@@ -39,7 +39,7 @@
 - 🔓\[[unlocker](https://github.com/ez8-co/unlocker)\] Ring3 layer (user mode, non-driver) file unlocking library
   - Possibly the **unique non-violent** solution in the world to unlock malformed directory deletion (this solution cannot be found on the Internet), the **unique memory-mapped file unlocking method** (the association between handle and mapfile has a fault line), supports cross-x86/x64/wow64 operations, supports skipping pipelines and other special handles that may cause deadlock
 - 🔍\[[ezpp](https://github.com/ez8-co/ezpp)\] A very easy-to-use C++ **code-level performance profiler** with **online profiling**
-  - The only one to support **recursion and multithreading** (compared to Google gprofiler and Intel VTune), widely used internally by the company, and has **contributed to performance optimization many times**
+  - The only one to support **recursion and multithreading** (compared to Google gprofiler and Intel VTune), widely used internally by the company, and has **resulted in performance optimization contributions many times**
 - 🔲\[[jsqrcode](https://github.com/ez8-co/jsqrcode)\] Pure JS version QR code parsing library (zxing port)
   - **Several bugs fixed**, added support for **Japanese code table/Chinese character decoding** (loaded on demand), **greatly improved** decoding success rate
 - 🆙\[[AutoUpdate](https://github.com/MFCer/AutoUpdate)\] Automatic update module implemented based on MFC
