@@ -33,7 +33,7 @@
 - 🚀\[[xpjson](https://github.com/ez8-co/xpjson)\] Mini cross-platform json library
   - Born in 2013, implemented with **C++11 & template metaprogramming (TMP, type extraction)** techniques, **only 1500 lines**, **no external dependencies**, support **SSO (Small String Optimization)/COW (Copy On Write)**
 - 💜\[[influxdb](https://github.com/orca-zhang/influxdb-cpp)\] The **most popular** C and C++ client on GitHub
-  - **300 lines of code to bare decode** HTTP requests, the **only** library with **no dependencies**, cleverly using **Duff's device** to merge processing ordinary and chunked returns
+  - **Less than 300 LOC to decode** HTTP requests, with **no dependencies**, cleverly using **Duff's device** to merge processing ordinary and chunked returns
 - 💉\[[yapi](https://github.com/ez8-co/yapi)\] **yet another process injector**
   - Eliminate the difference between **x86/x64/wow64** under Windows, injects the target process just **like writing a local program**, and no longer requires dll support
 - 🔓\[[unlocker](https://github.com/ez8-co/unlocker)\] Ring3 layer (user mode, non-driver) file unlocking library
