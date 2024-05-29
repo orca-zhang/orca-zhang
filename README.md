@@ -20,7 +20,7 @@
   - ⌚ NTP synchronization and secure clock rollback (default 1 minute)
   - 🦖 JS precision security (not exceeding 53 bits)
 - 🦄\[[ecache](https://github.com/orca-zhang/ecache)\] Lightweight local memory cache
-  - 🤏 Less than 300 lines of code, ready to be integrated in 30s
+  - 🤏 Less than 300 LOC, ready to be integrated in 30s
   - 🚀 High performance, minimalist design, concurrency safe
   - 🌈 Supports `LRU` and `LRU-2` modes
   - 🦖 Additional components support distributed consistency
