@@ -12,7 +12,7 @@
 
 - 🐋\[[orcas](https://github.com/orcastor)\] 🗄️Lightweight NAS solution that is smarter and more modern. **(WIP)**
   - 💸 Low cost: 3D print hot-swappable backplane reduce costs to 25%, ultra-high-performance system only costs ¥753.6 (without disk), 3\~18TB PMR storage only costs ¥1233.6\~3123.6
-  - 🚧 Cross-platform: Supports Win, Linux, MacOSX and (RPi / ARM64) with only 30W for 6 disks
+  - 🚧 Cross-platform: Supports Win, Linux, MacOSX and (RPi / ARM64) with only 50W for 6 disks
   - 📚 Replaceable storage engine: Default sqlcipher + self-developed storage
   - 📤 Supports multiple access protocols: http1.1/http2.0/http3.0/nfs/smb
 - ❄️\[[idgen](https://github.com/orca-zhang/idgen)\] A snowflake algorithm ID generator
