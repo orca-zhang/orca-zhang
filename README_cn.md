@@ -12,7 +12,7 @@
 
 - 🐋【[orcas](https://github.com/orcastor)】更聪明、更现代的轻量级NAS解决方案🗄️ **（开发中）**
   - 💸 低成本：自制热插拔背板成本低至25%，超高性能准系统仅￥753.6（无盘），3\~18TB垂直存储仅￥1233.6\~3123.6
-  - 🚧 跨平台：支持Win、Linux、MacOSX等主流操作系统以及廉价低功耗🔋（6块盘仅30W）设备（RPi / ARM64）
+  - 🚧 跨平台：支持Win、Linux、MacOSX等主流操作系统以及廉价低功耗🔋（6块盘仅50W）设备（RPi / ARM64）
   - 📚 存储引擎可替换：默认sqlcipher + 自研存储
   - 📤 支持多种访问协议：http1.1/http2.0/http3.0/nfs/smb
 - ❄️【[idgen](https://github.com/orca-zhang/idgen)】一款雪花算法发号器
