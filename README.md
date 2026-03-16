@@ -1,6 +1,6 @@
 [Simplified Chinese README | 简体中文说明](README_cn.md)
 
-> I am currently seeking new opportunities. If you are interested, please contact me at orca.zhang@yahoo.com
+> Open to new opportunities. Reach me at orca.zhang@yahoo.com.
 
 ### My Masterpieces
 
