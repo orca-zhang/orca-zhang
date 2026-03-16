@@ -1,5 +1,7 @@
 [English README | 英文说明](README.md)
 
+> 我目前正在寻求新的机会，如有意向，可以与我取得联系：orca.zhang@yahoo.com
+
 ### 我的作品
 
 <p align="center">
