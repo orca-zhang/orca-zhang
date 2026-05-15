@@ -12,6 +12,15 @@
 
 > This is a Beef Wellington I learned to make in 2022. My small dream is to open a Wuxi snack shop, selling bubble wontons, small steamed buns, magnolia cakes, hot and sour soup, and Suzhou-style noodles.
 
+- 🤖 [ZimaOS-Blue](https://github.com/IceWhaleTech/ZimaOS-Blue) Local-first pure-Go AI Agent Runtime for NAS / edge devices
+  - 🪶 Pure native runtime: Fully written in Go, no Python/container dependency, idle memory usage only **19 MB**, suitable for NAS / router / ARM devices
+  - ⚡ Evaluation-driven architecture: Built-in Harness regression/evaluation framework, every PR gated by replay + scoring to avoid functional regressions
+  - 🔍 Deep Research workflow: Unified planning + parallel retrieval + citation report generation, improving research efficiency by nearly **10×**
+  - 🌐 Browser automation engine: Three-layer replay architecture (`HTTP → proxy extraction → browser engine`) improving stability for complex websites and crawling
+  - 🧩 Extensible agent ecosystem: Built-in skill marketplace, GitHub integration, CLI/remote control, multi-context cache support
+  - 🎤 Local multimodal loop: STT / TTS / OCR / PDF parsing + local Qwen3.5 inference, fully offline capable with data staying on-device
+  - 🛠️ Cross-platform native support: Linux / macOS / Windows / ARM64, designed for lightweight edge AI deployment
+  - 📦 MIT Open Source · 39+ iterations from v0.1 → v0.10.39 in 2026 Q1
 - 🐋\[[orcas](https://github.com/orcastor)\] 🗄️Lightweight NAS solution that is smarter and more modern. **(WIP)**
   - 💸 Low cost: 3D print hot-swappable backplane reduce costs to 25%, ultra-high-performance system only costs ¥753.6 (without disk), 3\~18TB PMR storage only costs ¥1233.6\~3123.6
   - 🚧 Cross-platform: Supports Win, Linux, MacOSX and (RPi / ARM64) with only 50W for 6 disks
