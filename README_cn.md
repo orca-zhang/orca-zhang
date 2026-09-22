@@ -57,3 +57,5 @@
   - **极简设计**（仅气泡交互），**多国语言**，**自更新**，**多种更新策略**，**多节点部署**，**全屏检测**，提供SDK**即插即用**
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=orca-zhang&hide=html&layout=compact)![Stats](https://github-readme-stats.vercel.app/api?username=orca-zhang&count_private=true&line_height=20)
+
+[![GitHub Roast score card](https://ghfind.com/api/card/mini/orca-zhang?variant=radar)](https://ghfind.com/u/orca-zhang?ref=badge)
