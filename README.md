@@ -57,3 +57,5 @@
   - **Minimalist design** (only bubble interaction), **multilingual support**, **self-update**, **multiple update strategies**, **multi-node deployment**, **full-screen detection**, and provided SDK **plug-and-play**
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=orca-zhang&hide=html&layout=compact)![Stats](https://github-readme-stats.vercel.app/api?username=orca-zhang&count_private=true&line_height=20)
+
+[![GitHub Roast score card](https://ghfind.com/api/card/mini/orca-zhang?variant=radar)](https://ghfind.com/u/orca-zhang?ref=badge)
