@@ -13,41 +13,28 @@
 > This is a Beef Wellington I learned to make in 2022. My small dream is to open a Wuxi snack shop, selling bubble wontons, small steamed buns, magnolia cakes, hot and sour soup, and Suzhou-style noodles.
 
 - 📂\[[filens](https://github.com/IceWhaleTech/filens)\] File CLI for AI Agents and pure frontend multi-format preview engine
-  - 🤖 Agent file tools: Local reading, search, OCR, conversion and key passage extraction, with JSON / Markdown and other output formats
-  - 🖼️ Multi-format previews: Office / PDF / iWork, CAD / 3D, RAW, panoramic photos and video, archives and ebooks
-  - 🔎 Deep search: Search directories and nested archives, find duplicate files and similar images
-  - 🔒 Local-first processing: Parse and render files in the browser without uploading them to a conversion server
-  - 🪶 Lightweight delivery: Native CLI executable only **1.78–2.15 MiB** (excluding WASM / OCR assets), with frontend WASM / workers loaded on demand
-  - 🧩 Flexible integration: Standalone single-file / split JS builds, Vue components and an Agent skill
+  - 🤖 Local file understanding: Reading, search, OCR, conversion and key passage extraction, with JSON / Markdown output
+  - 🖼️ Browser previews: Office / PDF / iWork, CAD / 3D, RAW and panoramic media, with **no file uploads**
+  - 🪶 Lightweight integration: Native CLI **1.78–2.15 MiB** (excluding WASM / OCR assets), standalone single-file / split JS builds and Vue components
 - 🧠\[[Strata-A770](https://github.com/orca-zhang/Strata-A770)\] Local inference engine for running a **125B MoE model** on Intel Arc A770
-  - 💾 GPU / system memory collaboration: **16 GB VRAM + system RAM** for Qwen3.8-Flash-Next, keeping hot experts in VRAM
-  - ⚙️ Native Level Zero backend: Custom **Orca L0** inference runtime without SYCL / Unified Runtime / oneMKL runtime dependencies; independently reusable `orca-l0` library
-  - 🚀 Measured decoding speedup: **41.42 → 50.54 tok/s (+22.01%)**, original SYCL → Orca L0, on a fixed short-code benchmark after warmup on Windows / A770
-  - ⚡ Compute and scheduling optimizations: Expert caching and transfers, quantization / activation fusion, XMX matrix operations and MTP speculative decoding
-  - 🌐 Local application integration: Web chat and OpenAI Chat Completions / Responses / Anthropic Messages compatible APIs
+  - 💾 **16 GB VRAM + system RAM** runs Qwen3.8-Flash-Next, keeping hot experts in VRAM
+  - ⚙️ Custom **Orca L0** native Level Zero backend, with optimized expert caching, XMX compute and MTP speculative decoding
+  - 🚀 Windows / A770 fixed short-code benchmark after warmup: original SYCL → Orca L0 **41.42 → 50.54 tok/s (+22.01%)**
 - 🤖 [ZimaOS-Blue](https://github.com/IceWhaleTech/ZimaOS-Blue) Local-first pure-Go AI Agent Runtime for NAS / edge devices
-  - 🪶 Pure native runtime: Fully written in Go, no Python/container dependency, idle memory usage only **19 MB**, suitable for NAS / router / ARM devices
-  - ⚡ Evaluation-driven architecture: Built-in Harness regression/evaluation framework, every PR gated by replay + scoring to avoid functional regressions
-  - 🔍 Deep Research workflow: Unified planning + parallel retrieval + citation report generation, improving research efficiency by nearly **10×**
-  - 🌐 Browser automation engine: Three-layer replay architecture (`HTTP → proxy extraction → browser engine`) improving stability for complex websites and crawling
-  - 🧩 Extensible agent ecosystem: Built-in skill marketplace, GitHub integration, CLI/remote control, multi-context cache support
-  - 🎤 Local multimodal loop: STT / TTS / OCR / PDF parsing + local Qwen3.5 inference, fully offline capable with data staying on-device
-  - 🛠️ Cross-platform native support: Linux / macOS / Windows / ARM64, designed for lightweight edge AI deployment
-  - 📦 MIT Open Source · 39+ iterations from v0.1 → v0.10.39 in 2026 Q1
-- 🐋\[[orcas](https://github.com/orcastor)\] 🗄️Lightweight NAS solution that is smarter and more modern. **(WIP)**
-  - 💸 Low cost: 3D print hot-swappable backplane reduce costs to 25%, ultra-high-performance system only costs ¥753.6 (without disk), 3\~18TB PMR storage only costs ¥1233.6\~3123.6
-  - 🚧 Cross-platform: Supports Win, Linux, MacOSX and (RPi / ARM64) with only 50W for 6 disks
-  - 📚 Replaceable storage engine: Default sqlcipher + self-developed storage
-  - 📤 Supports multiple access protocols: http1.1/http2.0/http3.0/nfs/smb
+  - 🪶 No Python/container dependency, only **19 MB** idle memory; supports Linux / macOS / Windows / ARM64
+  - ⚡ Evaluation-driven development: Built-in Harness regression/evaluation framework, with replay + scoring gates for every PR
+  - 🔍 Deep Research and browser automation: Planning, parallel retrieval and cited reports; three-layer fallback (`HTTP → proxy extraction → browser engine`)
+  - 🧩 Skills and local multimodal processing: Skill marketplace, GitHub integration and CLI/remote control; STT / TTS / OCR / PDF and offline Qwen3.5 inference
+- 🐋\[[orcas](https://github.com/orcastor/orcas)\] Lightweight, high-performance content-addressable object storage **(WIP)**
+  - 🔐 **End-to-end encryption**: User-controlled keys, with encryption and decryption on the client
+  - 🗜️ **Smart compression**: Select compression by file type, avoid recompressing compressed data, then encrypt
+  - ♻️ **Content-based deduplication**: Store identical content once, with instant uploads and reuse across versions
+  - ⚡ **Batching by default**: Pack small files and batch metadata writes to reduce I/O and database overhead
 - ❄️\[[idgen](https://github.com/orca-zhang/idgen)\] A snowflake algorithm ID generator
-  - 🚀 Supports redis-based or local memory (fallback on failure)
-  - ⌚ NTP synchronization and secure clock rollback (default 1 minute)
-  - 🦖 JS precision security (not exceeding 53 bits)
+  - 🚀 Redis or local memory with fallback, NTP synchronization, clock rollback protection and **JS-safe 53-bit IDs**
 - 🦄\[[ecache](https://github.com/orca-zhang/ecache)\] Lightweight local memory cache
-  - 🤏 Less than 300 LOC, ready to be integrated in 30s
-  - 🚀 High performance, minimalist design, concurrency safe
-  - 🌈 Supports `LRU` and `LRU-2` modes
-  - 🦖 Additional components support distributed consistency
+  - 🤏 Minimal and fast: **Under 300 LOC**, **30-second integration**, concurrency safe
+  - 🌈 Cache policies: `LRU` / `LRU-2`, with distributed consistency through optional components
 - 🏎️\[[borm](https://github.com/orca-zhang/borm)\] A better ORM library
   - Similar to writing SQL, almost **no learning overhead**. The C++ version (not yet open-sourced) can handle data load/store from db to pb/struct in one line . The Go version uses reflect2 to solve **type conversion pain points**, with performance **close to or slightly better than native**, and has been used in production environments of two listed companies **without bugs** for many years.
 - 🗂️\[LRUCache（[go](https://github.com/orca-zhang/lrucache) / [c++](https://github.com/ez8-co/linked_hash) / [js](https://github.com/orca-zhang/cache.js))\]

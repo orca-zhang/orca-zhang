@@ -13,41 +13,28 @@
 > 这是2022年学做的惠灵顿牛排🥩（Beef Wellington），小愿望是能开一家无锡小吃店，卖泡泡小馄饨、小笼馒头、玉兰饼、酸辣汤、苏式面。
 
 - 📂【[filens](https://github.com/IceWhaleTech/filens)】面向 AI Agent 的文件 CLI 与纯前端多格式预览引擎
-  - 🤖 Agent 文件工具：本地读取、搜索、OCR、格式转换与关键原文提取，支持 JSON / Markdown 等多种输出
-  - 🖼️ 多格式预览：Office / PDF / iWork、CAD / 3D、RAW、全景照片与视频、压缩包与电子书
-  - 🔎 深度检索：支持目录及嵌套压缩包搜索、重复文件与相似图片查找
-  - 🔒 本地优先：在浏览器内解析与渲染，文件无需上传至转换服务器
-  - 🪶 轻量交付：原生 CLI 可执行文件仅 **1.78–2.15 MiB**（不含 WASM / OCR 资源），前端 WASM / Worker 按需加载
-  - 🧩 灵活接入：支持独立 JS 单文件 / 分包、Vue 组件与 Agent Skill
+  - 🤖 本地文件理解：读取、搜索、OCR、转换与关键原文提取，支持 JSON / Markdown 输出
+  - 🖼️ 纯前端预览：Office / PDF / iWork、CAD / 3D、RAW 与全景媒体，**文件无需上传**
+  - 🪶 轻量接入：原生 CLI **1.78–2.15 MiB**（不含 WASM / OCR 资源），支持 JS 单文件 / 分包与 Vue 组件
 - 🧠【[Strata-A770](https://github.com/orca-zhang/Strata-A770)】在 Intel Arc A770 上运行 **125B MoE 模型**的本地推理引擎
-  - 💾 显存与内存协作：**16 GB 显存 + 系统内存**承载 Qwen3.8-Flash-Next，热点专家优先驻留显存
-  - ⚙️ 原生 Level Zero 后端：自研 **Orca L0** 推理运行时，无 SYCL / Unified Runtime / oneMKL 运行时依赖，`orca-l0` 可独立复用
-  - 🚀 实测解码提速：Windows / A770 固定短代码预热后实测，原 SYCL → Orca L0 **41.42 → 50.54 tok/s（+22.01%）**
-  - ⚡ 计算与调度优化：专家缓存与换入、量化 / 激活融合、XMX 矩阵计算、MTP 推测解码
-  - 🌐 本地应用接入：网页聊天 + OpenAI Chat Completions / Responses / Anthropic Messages 兼容 API
+  - 💾 **16 GB 显存 + 系统内存**运行 Qwen3.8-Flash-Next，热点专家驻留显存
+  - ⚙️ 自研 **Orca L0** 原生 Level Zero 后端，优化专家缓存、XMX 计算与 MTP 推测解码
+  - 🚀 Windows / A770 固定短代码预热后实测：原 SYCL → Orca L0 **41.42 → 50.54 tok/s（+22.01%）**
 - 🤖 [ZimaOS-Blue](https://github.com/IceWhaleTech/ZimaOS-Blue) 面向 NAS / 边缘设备的本地优先纯 Go AI Agent 运行时
-  - 🪶 纯原生运行时：完全使用 Go 实现，无 Python / 容器依赖，闲时内存仅 **19 MB**，适用于 NAS、路由器、ARM 设备
-  - ⚡ 评估驱动架构：内置 Harness 回归 / 评估框架，每个 PR 都经过回放 + 评分门禁，避免功能退化
-  - 🔍 Deep Research 工作流：统一规划、并行检索、引用报告生成，研究效率提升近 **10 倍**
-  - 🌐 浏览器自动化引擎：采用“三层回退架构”（HTTP → 代理提取 → 浏览器引擎），显著提升复杂网页与爬取场景稳定性
-  - 🧩 可扩展 Agent 生态：内置技能市场、GitHub 集成、CLI / 远程控制、多上下文缓存能力
-  - 🎤 本地多模态闭环：支持 STT / TTS / OCR / PDF 解析 + 本地 Qwen3.5 推理，支持完全离线运行，数据不出设备
-  - 🛠️ 跨平台原生支持：支持 Linux / macOS / Windows / ARM64，面向轻量化边缘 AI 部署
-  - 📦 MIT 开源协议 · 2026 Q1 从 v0.1 演进至 v0.10.39，累计完成 39+ 版本迭代
-- 🐋【[orcas](https://github.com/orcastor)】更聪明、更现代的轻量级NAS解决方案🗄️ **（开发中）**
-  - 💸 低成本：自制热插拔背板成本低至25%，超高性能准系统仅￥753.6（无盘），3\~18TB垂直存储仅￥1233.6\~3123.6
-  - 🚧 跨平台：支持Win、Linux、MacOSX等主流操作系统以及廉价低功耗🔋（6块盘仅50W）设备（RPi / ARM64）
-  - 📚 存储引擎可替换：默认sqlcipher + 自研存储
-  - 📤 支持多种访问协议：http1.1/http2.0/http3.0/nfs/smb
+  - 🪶 无 Python / 容器依赖，闲时内存仅 **19 MB**，支持 Linux / macOS / Windows / ARM64
+  - ⚡ 评估驱动开发：内置 Harness 回归 / 评估框架，每个 PR 通过回放 + 评分门禁
+  - 🔍 Deep Research 与浏览器自动化：统一规划、并行检索与引用报告，浏览器采用 `HTTP → 代理提取 → 浏览器引擎` 三层回退
+  - 🧩 技能与本地多模态：技能市场、GitHub 集成、CLI / 远程控制，支持 STT / TTS / OCR / PDF 与本地 Qwen3.5 离线推理
+- 🐋【[orcas](https://github.com/orcastor/orcas)】轻量、高性能的内容寻址对象存储 **（开发中）**
+  - 🔐 **端到端加密**：用户掌控密钥，客户端完成加解密
+  - 🗜️ **智能压缩**：按文件类型选择压缩策略，避免重复压缩，先压缩再加密
+  - ♻️ **基于内容的去重**：相同内容只存一份，支持秒传与多版本复用
+  - ⚡ **默认批量处理**：小文件打包与元数据批量写入，减少 I/O 和数据库开销
 - ❄️【[idgen](https://github.com/orca-zhang/idgen)】一款雪花算法发号器
-  - 🚀 支持基于redis或本地内存（失败降级）
-  - ⌚ ntp同步和时钟回跳安全（默认1分钟）
-  - 🦖 js精度安全（不超过53位安全范围）
+  - 🚀 Redis / 本地内存降级，支持 NTP 同步、时钟回跳保护与 **JS 53 位精度安全**
 - 🦄【[ecache](https://github.com/orca-zhang/ecache)】轻量本地内存缓存
-  - 🤏 代码量<300行、30s完成接入
-  - 🚀 高性能、极简设计、并发安全
-  - 🌈 支持`LRU` 和 `LRU-2`两种模式
-  - 🦖 额外小组件支持分布式一致性
+  - 🤏 极简高性能：**不到 300 行**，**30 秒接入**，并发安全
+  - 🌈 缓存策略：支持 `LRU` / `LRU-2`，可通过额外组件实现分布式一致性
 - 🏎️【[borm](https://github.com/orca-zhang/borm)】更好用的orm库
   - 和写sql类似，几乎**无学习成本**，C++版一行搞定从db到pb/struct的数据load/store工作（暂未开源），golang版本使用reflect2，解决了**类型转换痛点**，性能**接近/略超原生**，应用于两家上市公司**生产环境无bug稳定运行多年**
 - 🗂️【LRUCache（[go](https://github.com/orca-zhang/lrucache) / [c++](https://github.com/ez8-co/linked_hash) / [js](https://github.com/orca-zhang/cache.js)）】
