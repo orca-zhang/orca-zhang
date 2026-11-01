@@ -27,6 +27,7 @@ I design, build and operate infrastructure for distributed storage, enterprise d
 - **Live-streaming architecture**: Reworked services to reach **million-scale QPS on a single endpoint**, with **zero production incidents during the migration**.
 - **Community platform from zero**: Led architecture and delivery of **10+ microservices in 3 months**, supporting **130+ applications** and reducing new-business launch cycles from **3 weeks to 1 week**.
 - **Push infrastructure**: Unified **3 push systems** serving **100M+ daily PV**, with APNs delivery within **3 seconds at a 10M-user scale**. Raised delivery from **20% to 50% (+30 percentage points)** and reduced push costs from **CNY 1M to CNY 50K per month (-95%)**. Among the first in the industry to deliver **end-to-end business-funnel visibility and rapid fault isolation**, and **recall / replacement across all push channels**.
+- **Push-driven engagement**: Raised **push-triggered app-launch UV / DAU from 11.8% to a peak of 15.38%**, keeping the ratio **at or above 13%**.
 
 ### Security & production infrastructure
 
@@ -165,4 +166,13 @@ A Beef Wellington I learned to make in 2022. Someday I'd like to open a small Wu
 
 For technical discussions and open-source collaboration, email [orca.zhang@yahoo.com](mailto:orca.zhang@yahoo.com).
 
-<p align="right"><sub>Open to new opportunities · <a href="mailto:orca.zhang@yahoo.com">Get in touch</a></sub></p>
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=orca-zhang&amp;hide=html&amp;layout=compact" alt="Most used languages" />
+  <img src="https://github-readme-stats.vercel.app/api?username=orca-zhang&amp;count_private=true&amp;line_height=20" alt="GitHub statistics" />
+</p>
+
+<p align="center">
+  <a href="https://ghfind.com/u/orca-zhang?ref=badge">
+    <img src="https://ghfind.com/api/card/mini/orca-zhang?variant=radar" alt="GitHub Roast score card" />
+  </a>
+</p>

@@ -27,6 +27,7 @@
 - **直播服务架构**：完成服务改造，单接口达到**百万级 QPS**，改造期间 **0 线上事故**。
 - **社区中台从零交付**：主导架构设计与研发，**3 个月交付 10+ 微服务**，支撑 **130+ 应用**接入，新业务上线周期从 **3 周缩短到 1 周**。
 - **推送基础设施**：整合 **3 套推送系统**，支撑**日 PV 上亿**，千万级用户 APNs 推送 **3 秒内送达**。送达率从 **20% 提升至 50%（+30 个百分点）**，每月推送成本从**人民币 100 万元降至 5 万元（降低 95%）**。业内率先落地**完整业务漏斗与快速排查定位系统**，并率先支持**全渠道推送撤销与覆盖**。
+- **推送业务效果**：推送调起 **UV / DAU 从 11.8% 提升至最高 15.38%，之后保持不低于 13%**。
 
 ### 安全与生产基础架构
 
@@ -165,4 +166,13 @@
 
 欢迎技术交流与开源合作：[orca.zhang@yahoo.com](mailto:orca.zhang@yahoo.com)。
 
-<p align="right"><sub>正在寻找新的工程机会 · <a href="mailto:orca.zhang@yahoo.com">联系我</a></sub></p>
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=orca-zhang&amp;hide=html&amp;layout=compact" alt="常用编程语言" />
+  <img src="https://github-readme-stats.vercel.app/api?username=orca-zhang&amp;count_private=true&amp;line_height=20" alt="GitHub 统计" />
+</p>
+
+<p align="center">
+  <a href="https://ghfind.com/u/orca-zhang?ref=badge">
+    <img src="https://ghfind.com/api/card/mini/orca-zhang?variant=radar" alt="GitHub Roast 评分卡" />
+  </a>
+</p>
