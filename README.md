@@ -12,6 +12,19 @@
 
 > This is a Beef Wellington I learned to make in 2022. My small dream is to open a Wuxi snack shop, selling bubble wontons, small steamed buns, magnolia cakes, hot and sour soup, and Suzhou-style noodles.
 
+- 📂\[[filens](https://github.com/IceWhaleTech/filens)\] File CLI for AI Agents and pure frontend multi-format preview engine
+  - 🤖 Agent file tools: Local reading, search, OCR, conversion and key passage extraction, with JSON / Markdown and other output formats
+  - 🖼️ Multi-format previews: Office / PDF / iWork, CAD / 3D, RAW, panoramic photos and video, archives and ebooks
+  - 🔎 Deep search: Search directories and nested archives, find duplicate files and similar images
+  - 🔒 Local-first processing: Parse and render files in the browser without uploading them to a conversion server
+  - 🪶 Lightweight delivery: Native CLI executable only **1.78–2.15 MiB** (excluding WASM / OCR assets), with frontend WASM / workers loaded on demand
+  - 🧩 Flexible integration: Standalone single-file / split JS builds, Vue components and an Agent skill
+- 🧠\[[Strata-A770](https://github.com/orca-zhang/Strata-A770)\] Local inference engine for running a **125B MoE model** on Intel Arc A770
+  - 💾 GPU / system memory collaboration: **16 GB VRAM + system RAM** for Qwen3.8-Flash-Next, keeping hot experts in VRAM
+  - ⚙️ Native Level Zero backend: Custom **Orca L0** inference runtime without SYCL / Unified Runtime / oneMKL runtime dependencies; independently reusable `orca-l0` library
+  - 🚀 Measured decoding speedup: **41.42 → 50.54 tok/s (+22.01%)**, original SYCL → Orca L0, on a fixed short-code benchmark after warmup on Windows / A770
+  - ⚡ Compute and scheduling optimizations: Expert caching and transfers, quantization / activation fusion, XMX matrix operations and MTP speculative decoding
+  - 🌐 Local application integration: Web chat and OpenAI Chat Completions / Responses / Anthropic Messages compatible APIs
 - 🤖 [ZimaOS-Blue](https://github.com/IceWhaleTech/ZimaOS-Blue) Local-first pure-Go AI Agent Runtime for NAS / edge devices
   - 🪶 Pure native runtime: Fully written in Go, no Python/container dependency, idle memory usage only **19 MB**, suitable for NAS / router / ARM devices
   - ⚡ Evaluation-driven architecture: Built-in Harness regression/evaluation framework, every PR gated by replay + scoring to avoid functional regressions

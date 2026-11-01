@@ -12,6 +12,19 @@
   
 > 这是2022年学做的惠灵顿牛排🥩（Beef Wellington），小愿望是能开一家无锡小吃店，卖泡泡小馄饨、小笼馒头、玉兰饼、酸辣汤、苏式面。
 
+- 📂【[filens](https://github.com/IceWhaleTech/filens)】面向 AI Agent 的文件 CLI 与纯前端多格式预览引擎
+  - 🤖 Agent 文件工具：本地读取、搜索、OCR、格式转换与关键原文提取，支持 JSON / Markdown 等多种输出
+  - 🖼️ 多格式预览：Office / PDF / iWork、CAD / 3D、RAW、全景照片与视频、压缩包与电子书
+  - 🔎 深度检索：支持目录及嵌套压缩包搜索、重复文件与相似图片查找
+  - 🔒 本地优先：在浏览器内解析与渲染，文件无需上传至转换服务器
+  - 🪶 轻量交付：原生 CLI 可执行文件仅 **1.78–2.15 MiB**（不含 WASM / OCR 资源），前端 WASM / Worker 按需加载
+  - 🧩 灵活接入：支持独立 JS 单文件 / 分包、Vue 组件与 Agent Skill
+- 🧠【[Strata-A770](https://github.com/orca-zhang/Strata-A770)】在 Intel Arc A770 上运行 **125B MoE 模型**的本地推理引擎
+  - 💾 显存与内存协作：**16 GB 显存 + 系统内存**承载 Qwen3.8-Flash-Next，热点专家优先驻留显存
+  - ⚙️ 原生 Level Zero 后端：自研 **Orca L0** 推理运行时，无 SYCL / Unified Runtime / oneMKL 运行时依赖，`orca-l0` 可独立复用
+  - 🚀 实测解码提速：Windows / A770 固定短代码预热后实测，原 SYCL → Orca L0 **41.42 → 50.54 tok/s（+22.01%）**
+  - ⚡ 计算与调度优化：专家缓存与换入、量化 / 激活融合、XMX 矩阵计算、MTP 推测解码
+  - 🌐 本地应用接入：网页聊天 + OpenAI Chat Completions / Responses / Anthropic Messages 兼容 API
 - 🤖 [ZimaOS-Blue](https://github.com/IceWhaleTech/ZimaOS-Blue) 面向 NAS / 边缘设备的本地优先纯 Go AI Agent 运行时
   - 🪶 纯原生运行时：完全使用 Go 实现，无 Python / 容器依赖，闲时内存仅 **19 MB**，适用于 NAS、路由器、ARM 设备
   - ⚡ 评估驱动架构：内置 Harness 回归 / 评估框架，每个 PR 都经过回放 + 评分门禁，避免功能退化
